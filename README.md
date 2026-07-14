@@ -1,9 +1,18 @@
+
 # Loom
 
-A desktop video editor for narrative/storytime gameplay videos (Roblox-style narration + captions +
-overlays/cutaways) — a Professional multi-track editing timeline, motion/keyframe animation, an
-optical-flow motion tracker, per-character rich text styling, a built-in sound effect library,
-AI-powered captions, and a flexible export pipeline (multiple video/audio formats).
+A professional multi-track video editor built for narrative/storytime gameplay videos.
+
+Create "Video..."-style videos with:
+- Multi-track editing
+- Motion/keyframe animation
+- Optical-flow motion tracking
+- Rich text captions
+- Built-in sound effects
+- AI-powered captions
+- Flexible video/audio export
+
+<img width="1919" height="1079" alt="Screenshot 2026-07-13 201520" src="https://github.com/user-attachments/assets/5a9b1fb6-c08c-4d6b-9bb3-395218ca9ae3" />
 
 ## What's in this folder
 
@@ -30,6 +39,8 @@ Click **More info → Run anyway** to continue.
    Groq API key — see below).
 6. Hit **Export**, choose your resolution, frame rate, and format, and render.
 
+<img width="1919" height="1036" alt="Screenshot 2026-07-13 201032" src="https://github.com/user-attachments/assets/1db5009b-8fc7-4415-baa0-3cbd522c4f9a" />
+
 ### One-time setup: Groq API key (for captions only)
 
 Captions are transcribed using Groq's Whisper API. To use them:
@@ -39,6 +50,8 @@ Captions are transcribed using Groq's Whisper API. To use them:
 
 The key is stored locally on your machine and is only ever sent directly to Groq when you generate
 captions — nothing else in Loom needs it or sends data anywhere.
+
+<img width="1919" height="1079" alt="Screenshot 2026-07-13 201524" src="https://github.com/user-attachments/assets/5fbcd6bb-fd96-48f9-b147-b8c0e57a45f0" />
 
 ## Feature overview
 
